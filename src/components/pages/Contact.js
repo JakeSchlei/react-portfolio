@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Button from 'react-bootstrap/Button'
+import Form from 'react-bootstrap/Form'
 
 
 
@@ -44,27 +46,27 @@ function Contact() {
 
     return (
        <section>
-        <h1>Get in Touch!</h1>
-        <form id='contact-form' onSubmit={handleSubmit}>
-            <div>
-                <label htmlFor="name">Name:</label>
-                <input type='text' name="Name" defaultValue={name} onBlur={handleChange} />
-            </div>
-            <div>
-                <label htmlFor="email">Email Address:</label>
-                <input type='email' name="email" defaultValue={email} onBlur={handleChange} />
-            </div>
-            <div>
-                <label htmlFor="message">Message:</label>
-                <textarea name='Message' rows="5" defaultValue={message} onBlur={handleChange} />
-            </div>
+        <h1 className="d-flex justify-content-center mt-5">Get in Touch!</h1>
+        <Form className='m-5'id='contact-form' onSubmit={handleSubmit}>
+            <Form.Group>
+                <Form.Label htmlFor="name">Name:</Form.Label>
+                <Form.Control type='text' name="Name" defaultValue={name} onBlur={handleChange} />
+            </Form.Group>
+            <Form.Group>
+                <Form.Label htmlFor="email">Email Address:</Form.Label>
+                <Form.Control type='email' name="email" defaultValue={email} onBlur={handleChange} />
+            </Form.Group>
+            <Form.Group>
+                <Form.Label htmlFor="message">Message:</Form.Label>
+                <Form.Control name='Message' rows="5" defaultValue={message} onBlur={handleChange} />
+            </Form.Group>
             {errorMessage && (
                 <div>
                     <p className="error-text">{errorMessage}</p>
                 </div>
             )}
-            <button className="button" type="submit">Submit!</button>
-        </form>
+            <Button variant="dark" type="submit">Submit!</Button>
+        </Form>
        </section> 
     )
 };
