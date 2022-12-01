@@ -1,8 +1,29 @@
 body {
+    margin: 0;
     background-color: grey;
 }
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
 
-.nav-tabs {
-    background-color: ;
-    
+.resume-link {
+    font-size: xx-large;
+    color: black;
+}
+
+
+
+footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+ height: 2.5rem;
+}
+
+.skills {
+    height: 60px;
+    width: 60px;
 }
