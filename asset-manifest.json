@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.b1e57b6e.css",
+    "main.js": "/react-portfolio/static/js/main.3711b0ac.js",
+    "static/media/Brew.PNG": "/react-portfolio/static/media/Brew.84456236eb2ab99ee26b.PNG",
+    "static/media/Sphinx.PNG": "/react-portfolio/static/media/Sphinx.c6805b09de2f39564370.PNG",
+    "static/media/Weather.PNG": "/react-portfolio/static/media/Weather.91e7bf02decf16916108.PNG",
+    "static/media/IMG_0623.JPG": "/react-portfolio/static/media/IMG_0623.cc372b7f0884f71b13db.JPG",
+    "static/media/Jake Schlei Resume.pdf": "/react-portfolio/static/media/Jake Schlei Resume.33585e91a3ea13d24f27.pdf",
+    "static/media/Employee.png": "/react-portfolio/static/media/Employee.87b60576bc60a467c22f.png",
+    "static/media/Read.PNG": "/react-portfolio/static/media/Read.83df41b8144e7ae9d2ba.PNG",
+    "static/media/Quiz.PNG": "/react-portfolio/static/media/Quiz.9c094bbf773677f759b4.PNG",
+    "index.html": "/react-portfolio/index.html",
+    "main.b1e57b6e.css.map": "/react-portfolio/static/css/main.b1e57b6e.css.map",
+    "main.3711b0ac.js.map": "/react-portfolio/static/js/main.3711b0ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1e57b6e.css",
+    "static/js/main.3711b0ac.js"
+  ]
+}
