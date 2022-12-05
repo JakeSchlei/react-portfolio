@@ -19,6 +19,7 @@
 
   ## Installation
     This application is deployed through GitHub Pages! You can visit the deployment here! 
+    https://jakeschlei.github.io/react-portfolio/
 
 
   ## Usage
