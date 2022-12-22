@@ -9,11 +9,35 @@ import weatherPhoto from '../../assets/project photos/Weather.PNG'
 import employeePhoto from '../../assets/project photos/Employee.png'
 import readMePhoto from '../../assets/project photos/Read.PNG'
 import quizPhoto from '../../assets/project photos/Quiz.PNG'
+import globoPhoto from '../../assets/project photos/Capture.PNG'
 
 function Projects() {
     return (
         <Container className="projects d-flex justify-content-center mt-5 xs">
             <Row>
+            <Card style={{ width: '18rem', margin: '25px', }}>
+                <Card.Img variant="top" src={globoPhoto} />
+                <Card.Body>
+                    <Card.Title>Globo Gains</Card.Title>
+                        <Card.Text>
+                            Globo Gains is a fitness app that is made with the GARMEN stack!
+                        </Card.Text>
+                   
+                    <Button as="a" href="https://globogains.herokuapp.com/" target="_blank" variant="dark">View App</Button>
+                    <Button as="a" href="https://github.com/palminski/perfidious-gains-goblins" target="_blank" variant="dark">View Repo</Button>
+                </Card.Body>
+            </Card>
+            <Card style={{ width: '18rem', margin: '25px'  }}>
+                <Card.Img variant="top" src={brewPhoto} />
+                <Card.Body>
+                    <Card.Title>Ultimate Brew Master</Card.Title>
+                        <Card.Text>
+                           A frontend project to locate breweries in any area! We used 2 different third party APIs to fetch information!
+                        </Card.Text>
+                        <Button as="a" href="https://palminski.github.io/ultimate-brew-master-brewery-finder/" target="_blank" variant="dark">View App</Button>
+                    <Button as="a" href="https://github.com/palminski/ultimate-brew-master-brewery-finder" target="_blank" variant="dark">View Repo</Button>
+                </Card.Body>
+            </Card>
             <Card style={{ width: '18rem', margin: '25px', }}>
                 <Card.Img variant="top" src={sphinxPhoto} />
                 <Card.Body>
